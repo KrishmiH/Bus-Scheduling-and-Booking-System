@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+/*header*/
+header{
+    height:80px;
+    background: #11101b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 100px;
+   
+    
+}
+header h2{
+    color: white;
+}
+header h2 span{
+    color: orange;
+}
+.humberger{
+    display: none;
+}
+.navigation ul{
+    display: flex;
+}
+.navigation ul li a{
+    display: block;
+    color:#fefefe;
+    font-size:20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin:0 5px;
+}
+a{
+  color:black;
+}
+.navigation ul  button{
+        padding: 10px;
+        border: none;
+        color:black;
+        background: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 6.4px;
+        margin: 4px 2px;
+    }
+   
+.navigation ul i{
+     margin-top: 25px;
+     margin-left: 10px;
+}
+.navigation ul li a:hover{
+    background: #fefefe;
+    color:black
+}
+.navigation ul li a.active{
+    color:black;
+    background: #fefefe;
+}
+
+.section1{
+    border: 1px solid rgb(22, 12, 12);
+    border-radius: 4px;
+    text-align: center;
+    padding: 43px;
+    height:170px;
+    background: rgb(43, 34, 34);
+    color:white;
+}
+button{
+    width:100px;
+    height:50px;
+    border-radius: 30px;
+    font-size:15px;
+    color:black;
+    background:white;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+.button:hover{
+    background:rgb(227, 217, 217)
+}
+.header2{
+    width:100%;
+    font-size: 85px;
+    display: flex;
+    background-image: url(img/bus.jpg);
+    background-position: center;
+    background-size:cover;
+    text-align:center;
+}
+
+h2{
+   
+    background: transparent
+}
+.tag1{
+    color: greenyellow;
+    font-weight: 950;
+}
+.tag2{
+color:rgb(130, 71, 71);
+}
+.tag3{
+    color:rgb(217, 26, 26)
+}
+/*footer*/
+
+footer{
+    background: #11101b;
+    color:#fefefe;
+    height: 150px;
+    display:flex;
+    position: relative;
+    top: 1800;
+    justify-content: space-between;
+}
+
+
+.col ul a {
+  color:#fefefe;
+  padding: 10px;
+}
+@media screen and (min-width:700px){
+    footer{
+        flex:1;
+    }
+    .col5 h3{
+        margin:10px;
+    }
+   
+    footer{
+        padding: 15px;
+    }
+    #sectionlg{
+    position: relative;
+    top:20px;
+    }
+
+}
